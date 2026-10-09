@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOpeN6gHNwpsdws/3SauhC8",
+      "authorship_tag": "ABX9TyN0CsMEre18pRmg1pk9vosn",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -25,19 +25,6 @@
       "source": [
         "<a href=\"https://colab.research.google.com/github/charan0887/ML_LAB_2026-27/blob/main/Decisiontree.ipynd\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "A Decision Tree is a supervised machine learning algorithm used for both classification and regression tasks. It's one of the most intuitive and easy-to-understand models.\n",
-        "\n",
-        "Think of it like a flowchart or a game of \"20 Questions.\" The tree starts with a single root node representing the entire dataset. It then splits the data into smaller, more homogeneous groups based on a series of questions about the features. Each question corresponds to an internal node, and the possible answers are the branches. The process continues until it reaches the leaf nodes, which represent the final classification or prediction.\n",
-        "\n",
-        "The goal during training is to find the best questions (splits) that most effectively separate the data into pure classes. To do this, it commonly uses metrics like the Gini Impurity or Entropy to measure the \"disorder\" or \"impurity\" of a node. A lower impurity means the data in that node is more uniform (i.e., belongs to a single class)."
-      ],
-      "metadata": {
-        "id": "2zxadCmOUST2"
-      }
     },
     {
       "cell_type": "code",
